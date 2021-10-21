@@ -1,0 +1,12 @@
+package com.luv2code.springdemo;
+
+public class HappyFortuneService implements FortuneService {
+	private int[] fortuneArray = {7,8,9};
+	@Override
+	public String getFortune() {
+		// TODO Auto-generated method stub
+		int fortune = Math.random()*
+		return "Today is your lucky day";
+	}
+
+}
